@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Ek raat ma sabh khatam</string>
+
+    <!--Calculation String File-->
+    <string name="heading">Basic Calculator</string>
+    <string name="btn1">Calculate</string>
+    <string name="btn2">reset</string>
+    <string name="ed1hint">First Value</string>
+    <string name="ed2hint">Second Value</string>
+
+    <!--Calculator Version 2-->
+    <string name="_1">1</string>
+    <string name="_eql">=</string>
+    <string name="_div">/</string>
+    <string name="_c">c</string>
+    <string name="_0">0</string>
+    <string name="_dot">.</string>
+    <string name="_multi">*</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_sub">-</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_add">+</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+
+    <!--Form V2-->
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sports">Sports</string>
+    <string name="arts">Arts</string>
+    <string name="social_work">Social Work</string>
+    <string name="submit">Submit</string>
+    <string name="image">Image</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Form_v2d">
+
+    <TextView
+        android:id="@+id/welcomemsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150sp"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_below="@+id/welcomemsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:id="@+id/contentmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        android:text="Content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contentmsg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentmsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5sp"
+        android:text="Content"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentmsg2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35sp"
+        android:text="Back" />
+
+</RelativeLayout>
